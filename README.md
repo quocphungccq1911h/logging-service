@@ -1,2 +1,2 @@
 # logging-service
-Catalog Service of mbs
+Logging service of mbs

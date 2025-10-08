@@ -1,0 +1,15 @@
+server:
+  port: 8081
+
+spring:
+  elasticsearch:
+    host: localhost
+    port: 9200
+    username: elastic
+    password: changeme
+    connection-timeout: 1000
+    socket-timeout: 3000
+
+logging:
+  level:
+    root: INFO
