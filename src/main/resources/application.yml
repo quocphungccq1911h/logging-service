@@ -1,14 +1,21 @@
 server:
-  port: 8081
+  port: 8082
 
 spring:
-  elasticsearch:
-    host: localhost
-    port: 9200
-    username: elastic
-    password: changeme
-    connection-timeout: 1000
-    socket-timeout: 3000
+  application:
+    name: service-log
+  data:
+    elasticsearch:
+      cluster-name: elasticsearch
+      cluster-nodes: localhost:9200
+
+#  elasticsearch:
+#    host: localhost
+#    port: 9200
+#    username: elastic
+#    password: changeme
+#    connection-timeout: 1000
+#    socket-timeout: 3000
 
 logging:
   level:
